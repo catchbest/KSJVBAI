@@ -251,6 +251,24 @@
             <Description>Morphology</Description>
             <CategoryId>1</CategoryId>
         </StepType>
+	
+	<StepType>
+            <Id>22</Id>
+            <Name>NCC</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>MD_KSJVisionStepNCC_x86.dll</DllName>
+            <Description>Grayscale Matching</Description>
+            <CategoryId>2</CategoryId>
+        </StepType>
+	
+	<StepType>
+            <Id>24</Id>
+            <Name>GeoMatch</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>MD_KSJVisionStepGeoMatch_x86.dll</DllName>
+            <Description>Shape Matching</Description>
+            <CategoryId>2</CategoryId>
+        </StepType>
 
 </Step>      
   
