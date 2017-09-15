@@ -251,6 +251,33 @@
             <Description>Morphology</Description>
             <CategoryId>1</CategoryId>
         </StepType>
+
+	<StepType>
+            <Id>22</Id>
+            <Name>NCC</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>libKSJVisionStepNCC.so</DllName>
+            <Description>Grayscale Matching</Description>
+            <CategoryId>2</CategoryId>
+        </StepType>
+	
+	<StepType>
+            <Id>23</Id>
+            <Name>Calculator</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>libKSJVisionStepCalculator.so</DllName>
+            <Description>Calculator</Description>
+            <CategoryId>0</CategoryId>
+        </StepType>
+
+	<StepType>
+            <Id>24</Id>
+            <Name>Morphology</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>libKSJVisionStepGeoMatch.so</DllName>
+            <Description>Shape Matching</Description>
+            <CategoryId>2</CategoryId>
+        </StepType>
 		
 
 </Step>      

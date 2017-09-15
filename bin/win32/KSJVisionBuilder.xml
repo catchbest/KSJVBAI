@@ -262,6 +262,15 @@
         </StepType>
 	
 	<StepType>
+            <Id>23</Id>
+            <Name>Calculator</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>MD_KSJVisionStepCalculator_x86.dll</DllName>
+            <Description>Calculator</Description>
+            <CategoryId>0</CategoryId>
+        </StepType>
+
+	<StepType>
             <Id>24</Id>
             <Name>GeoMatch</Name>
             <Icon>Morphology.png</Icon>
