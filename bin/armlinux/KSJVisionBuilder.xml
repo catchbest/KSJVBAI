@@ -195,7 +195,7 @@
             <Icon>Morphology.png</Icon>
             <DllName>libKSJVisionStepIf.so</DllName>
             <Description>If</Description>
-            <CategoryId>0</CategoryId>
+            <CategoryId>7</CategoryId>
         </StepType>
 				
 	<StepType>
@@ -267,7 +267,7 @@
             <Icon>Morphology.png</Icon>
             <DllName>libKSJVisionStepCalculator.so</DllName>
             <Description>Calculator</Description>
-            <CategoryId>0</CategoryId>
+            <CategoryId>7</CategoryId>
         </StepType>
 
 	<StepType>
@@ -278,6 +278,62 @@
             <Description>Shape Matching</Description>
             <CategoryId>2</CategoryId>
         </StepType>
+
+	<StepType>
+            <Id>25</Id>
+            <Name>For</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>libKSJVisionStepFor.so</DllName>
+            <Description>For</Description>
+            <CategoryId>7</CategoryId>
+        </StepType>
+
+	<StepType>
+            <Id>26</Id>
+            <Name>Define</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>libKSJVisionStepDefine.so</DllName>
+            <Description>Define a variable</Description>
+            <CategoryId>7</CategoryId>
+        </StepType>
+
+	<StepType>
+            <Id>27</Id>
+            <Name>SaveImage</Name>
+            <Icon>Morphology.png</Icon>
+            <DllName>libKSJVisionStepSaveImage.so</DllName>
+            <Description>Save Image</Description>
+            <CategoryId>0</CategoryId>
+        </StepType>
+
+	<StepType>
+            <Id>28</Id>
+            <Name>Output</Name>
+            <Icon>Communicate.png</Icon>
+            <DllName>libKSJVisionStepSCZOutput.so</DllName>
+            <Description>IO Output</Description>
+            <CategoryId>6</CategoryId>
+        </StepType>
+
+	<StepType>
+            <Id>29</Id>
+            <Name>ModBusWrite</Name>
+            <Icon>Communicate.png</Icon>
+            <DllName>libKSJVisionStepModbusWrite.so</DllName>
+            <Description>ModBus Write</Description>
+            <CategoryId>6</CategoryId>
+        </StepType>
+
+
+	<StepType>
+            <Id>30</Id>
+            <Name>ModBusRead</Name>
+            <Icon>Communicate.png</Icon>
+            <DllName>libKSJVisionStepModbusRead.so</DllName>
+            <Description>ModBus Read</Description>
+            <CategoryId>6</CategoryId>
+        </StepType>
+
 		
 
 </Step>      
