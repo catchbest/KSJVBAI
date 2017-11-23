@@ -324,6 +324,15 @@
             <CategoryId>0</CategoryId>
         </StepType>
 
+	<StepType>
+            <Id>30</Id>
+            <Name>Delay</Name>
+            <Icon>Delay.png</Icon>
+            <DllName>MD_KSJVisionStepDelay_x86.dll</DllName>
+            <Description>Save Image: Save a image to the disk</Description>
+            <CategoryId>7</CategoryId>
+        </StepType>
+
 </Step>      
   
 </KSJVisionSteps>
