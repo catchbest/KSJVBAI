@@ -182,9 +182,9 @@
 		
 	<StepType>
             <Id>14</Id>
-            <Name>Dispaly</Name>
-            <Icon>Dispaly.png</Icon>
-            <DllName>MD_KSJVisionStepDispaly_x86.dll</DllName>
+            <Name>Display</Name>
+            <Icon>Display.png</Icon>
+            <DllName>MD_KSJVisionStepDisplay_x86.dll</DllName>
             <Description>Dispaly: Display the informations of your interest</Description>
             <CategoryId>7</CategoryId>
         </StepType>

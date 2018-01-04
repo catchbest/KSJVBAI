@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<KsjvbProjectDosument version="1.0">
+    <Infomation>
+        <Description>This is KSJVBAI software setting</Description>
+        <Company>Beijing Catchbest Ltd., CO.</Company>
+        <Copyright>2017 Catchbest</Copyright>
+    </Infomation>
+    <ProjectSetting>
+        <ShowRunResult>7</ShowRunResult>
+        <aotuloadproject>1</aotuloadproject>
+        <aoturunning>0</aoturunning>
+        <defaultprojectfile>E:/Working/101/git.KSJVisionBuilder/KSJVisionBuilder.bin/win32/projects/123.kvb</defaultprojectfile>
+        <donotshowresult>0</donotshowresult>
+        <logfolder>E:/Working/101/git.KSJVisionBuilder/KSJVisionBuilder.bin/win32/log</logfolder>
+        <projectfolder>E:/Work/013/git.KSJVisionBuilder/KSJVisionBuilder</projectfolder>
+        <userdatafolder>C:/Users/GTY/Desktop/findcounters</userdatafolder>
+    </ProjectSetting>
+</KsjvbProjectDosument>
