@@ -185,7 +185,7 @@
             <Name>Display</Name>
             <Icon>Display.png</Icon>
             <DllName>MD_KSJVisionStepDisplay_x86.dll</DllName>
-            <Description>Dispaly: Display the informations of your interest</Description>
+            <Description>Display: Display the informations of your interest</Description>
             <CategoryId>7</CategoryId>
         </StepType>
 		
@@ -194,7 +194,7 @@
             <Name>Serial Port</Name>
             <Icon>SerialPort.png</Icon>
             <DllName>MD_KSJVisionStepSerialPort_x86.dll</DllName>
-            <Description>Serial Port: Craete a serial connect</Description>
+            <Description>Serial Port: Create a serial connect</Description>
             <CategoryId>6</CategoryId>
         </StepType>
 		
@@ -203,7 +203,7 @@
             <Name>Ethernet</Name>
             <Icon>Ethernet.png</Icon>
             <DllName>MD_KSJVisionStepEthernet_x86.dll</DllName>
-            <Description>Ethernet: Craete a ethernet connect</Description>
+            <Description>Ethernet: Create a ethernet connect</Description>
             <CategoryId>6</CategoryId>
         </StepType>
 
@@ -325,14 +325,41 @@
         </StepType>
 
 	<StepType>
-            <Id>30</Id>
+            <Id>31</Id>
             <Name>Delay</Name>
             <Icon>Delay.png</Icon>
             <DllName>MD_KSJVisionStepDelay_x86.dll</DllName>
-            <Description>Save Image: Save a image to the disk</Description>
+            <Description>Delay: Delay for some time</Description>
             <CategoryId>7</CategoryId>
         </StepType>
 
-</Step>      
-  
+    <StepType>
+      <Id>32</Id>
+      <Name>BarCodeRead2</Name>
+      <Icon>BarCodeRead.png</Icon>
+      <DllName>MD_KSJVisionStepZXing_x86.dll</DllName>
+      <Description>BarCode Read2: Reads a Barcode from the region of interest</Description>
+      <CategoryId>5</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>33</Id>
+      <Name>Images Operation</Name>
+      <Icon>ImagesOperation.png</Icon>
+      <DllName>MD_KSJVisionStepImagesOperation_x86.dll</DllName>
+      <Description>Images Operation: Images Operation</Description>
+      <CategoryId>1</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>34</Id>
+      <Name>Measure Intensity</Name>
+      <Icon>MeasureIntensity.png</Icon>
+      <DllName>MD_KSJVisionStepMeasureIntensity_x86.dll</DllName>
+      <Description>Measure Intensity: Measure Intensity</Description>
+      <CategoryId>3</CategoryId>
+    </StepType>
+
+  </Step>
+
 </KSJVisionSteps>

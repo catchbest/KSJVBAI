@@ -182,10 +182,10 @@
 
     <StepType>
       <Id>14</Id>
-      <Name>Dispaly</Name>
-      <Icon>Dispaly.png</Icon>
-      <DllName>libKSJVisionStepDispaly.so</DllName>
-      <Description>Dispaly: Display the informations of your interest</Description>
+      <Name>Display</Name>
+      <Icon>Display.png</Icon>
+      <DllName>libKSJVisionStepDisplay.so</DllName>
+      <Description>Display: Display the informations of your interest</Description>
       <CategoryId>7</CategoryId>
     </StepType>
 
@@ -194,7 +194,7 @@
       <Name>Serial Port</Name>
       <Icon>SerialPort.png</Icon>
       <DllName>libKSJVisionStepSerialPort.so</DllName>
-      <Description>Serial Port: Craete a serial connect</Description>
+      <Description>Serial Port: Create a serial connect</Description>
       <CategoryId>6</CategoryId>
     </StepType>
 
@@ -203,7 +203,7 @@
       <Name>Ethernet</Name>
       <Icon>Ethernet.png</Icon>
       <DllName>libKSJVisionStepEthernet.so</DllName>
-      <Description>Ethernet: Craete a ethernet connect</Description>
+      <Description>Ethernet: Create a ethernet connect</Description>
       <CategoryId>6</CategoryId>
     </StepType>
 
@@ -340,6 +340,33 @@
       <DllName>libKSJVisionStepDelay.so</DllName>
       <Description>Delay: Delay for some time</Description>
       <CategoryId>7</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>32</Id>
+      <Name>BarCodeRead2</Name>
+      <Icon>BarCodeRead.png</Icon>
+      <DllName>libKSJVisionStepZXing.so</DllName>
+      <Description>BarCode Read2: Reads a Barcode from the region of interest</Description>
+      <CategoryId>5</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>33</Id>
+      <Name>Images Operation</Name>
+      <Icon>ImagesOperation.png</Icon>
+      <DllName>libKSJVisionStepImagesOperation.so</DllName>
+      <Description>Images Operation: Images Operation</Description>
+      <CategoryId>1</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>34</Id>
+      <Name>Measure Intensity</Name>
+      <Icon>MeasureIntensity.png</Icon>
+      <DllName>libKSJVisionStepMeasureIntensity.so</DllName>
+      <Description>Measure Intensity: Measure Intensity</Description>
+      <CategoryId>3</CategoryId>
     </StepType>
 
   </Step>
