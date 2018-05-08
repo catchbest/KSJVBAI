@@ -1,4 +1,4 @@
-﻿<KSJVisionSteps>
+<KSJVisionSteps>
   <Category>
 
     <CategoryType>
@@ -58,7 +58,7 @@
       <Id>0</Id>
       <Name>Camera</Name>
       <Icon>Camera.png</Icon>
-      <DllName>libKSJVisionStepKSJSCZCamera.so</DllName>
+      <DllName>KSJVisionStepKSJSCZCamera</DllName>
       <Description>Camera: Digital industrial camera of CatchBest Ltd., Com.</Description>
       <CategoryId>0</CategoryId>
     </StepType>
@@ -67,7 +67,7 @@
       <Id>1</Id>
       <Name>Simulate Acquisition</Name>
       <Icon>SimulateAcquisition.png</Icon>
-      <DllName>libKSJVisionStepSimulateAcquisition.so</DllName>
+      <DllName>KSJVisionStepSimulateAcquisition</DllName>
       <Description>Simulate Acquisition: Simultes the acquisition of images by reading images from file.</Description>
       <CategoryId>0</CategoryId>
     </StepType>
@@ -76,7 +76,7 @@
       <Id>2</Id>
       <Name>Threshold Image</Name>
       <Icon>ThresholdImage.png</Icon>
-      <DllName>libKSJVisionStepThresholdImage.so</DllName>
+      <DllName>KSJVisionStepThresholdImage</DllName>
       <Description>Threshold Image: Threshold an image for later stage.</Description>
       <CategoryId>1</CategoryId>
     </StepType>
@@ -85,7 +85,7 @@
       <Id>3</Id>
       <Name>Select Image</Name>
       <Icon>SelectImage.png</Icon>
-      <DllName>libKSJVisionStepSelectImage.so</DllName>
+      <DllName>KSJVisionStepSelectImage</DllName>
       <Description>Select Image: Select an input image for later stage.</Description>
       <CategoryId>0</CategoryId>
     </StepType>
@@ -94,7 +94,7 @@
       <Id>4</Id>
       <Name>Find Circular Edge</Name>
       <Icon>FindCircular.png</Icon>
-      <DllName>libKSJVisionStepFindCircularEdge.so</DllName>
+      <DllName>KSJVisionStepFindCircularEdge</DllName>
       <Description>Find Circular Edge: Find the circular edge from the region of interest.</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -103,7 +103,7 @@
       <Id>5</Id>
       <Name>Find Edges</Name>
       <Icon>FindEdges.png</Icon>
-      <DllName>libKSJVisionStepFindEdges.so</DllName>
+      <DllName>KSJVisionStepFindEdges</DllName>
       <Description>Find Edges: Locates and counts intensity transitions along a line in the image</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -112,7 +112,7 @@
       <Id>6</Id>
       <Name>Find Straight Edge</Name>
       <Icon>FindStraightEdge.png</Icon>
-      <DllName>libKSJVisionStepFindStraightEdge.so</DllName>
+      <DllName>KSJVisionStepFindStraightEdge</DllName>
       <Description>Find Straight Edge: Locates a straight edge in the region of interest.</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -121,7 +121,7 @@
       <Id>7</Id>
       <Name>Geometry</Name>
       <Icon>Geometry.png</Icon>
-      <DllName>libKSJVisionStepGeometry.so</DllName>
+      <DllName>KSJVisionStepGeometry</DllName>
       <Description>Geometry: Computes geometrical features based on points located in the image</Description>
       <CategoryId>3</CategoryId>
     </StepType>
@@ -130,7 +130,7 @@
       <Id>8</Id>
       <Name>CreateROI</Name>
       <Icon>CreateROI.png</Icon>
-      <DllName>libKSJVisionStepCreateROI.so</DllName>
+      <DllName>KSJVisionStepCreateROI</DllName>
       <Description>Create ROI: Creates a region of interest that you can use in subsequent steps.</Description>
       <CategoryId>1</CategoryId>
     </StepType>
@@ -139,7 +139,7 @@
       <Id>9</Id>
       <Name>Coordinate</Name>
       <Icon>Coordinate.png</Icon>
-      <DllName>libKSJVisionStepCoordinate.so</DllName>
+      <DllName>KSJVisionStepCoordinate</DllName>
       <Description>Coordinate: Builds a coordinate system based on the location.</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -148,7 +148,7 @@
       <Id>10</Id>
       <Name>FilterImage</Name>
       <Icon>FilterImage.png</Icon>
-      <DllName>libKSJVisionStepFilterImage.so</DllName>
+      <DllName>KSJVisionStepFilterImage</DllName>
       <Description>Filter Image: Prepares an image for processing.</Description>
       <CategoryId>1</CategoryId>
     </StepType>
@@ -157,7 +157,7 @@
       <Id>11</Id>
       <Name>BarCodeRead</Name>
       <Icon>BarCodeRead.png</Icon>
-      <DllName>libKSJVisionStepBarCode.so</DllName>
+      <DllName>KSJVisionStepBarCode</DllName>
       <Description>BarCode Read: Reads a Barcode from the region of interest</Description>
       <CategoryId>5</CategoryId>
     </StepType>
@@ -166,7 +166,7 @@
       <Id>12</Id>
       <Name>SegmentColorImage</Name>
       <Icon>SegmentColorImage.png</Icon>
-      <DllName>libKSJVisionStepSegmentColorImage.so</DllName>
+      <DllName>KSJVisionStepSegmentColorImage</DllName>
       <Description>Segment ColorImage: Segments a color image and produces a greyscale image.</Description>
       <CategoryId>1</CategoryId>
     </StepType>
@@ -175,7 +175,7 @@
       <Id>13</Id>
       <Name>Ruler</Name>
       <Icon>Ruler.png</Icon>
-      <DllName>libKSJVisionStepRuler.so</DllName>
+      <DllName>KSJVisionStepRuler</DllName>
       <Description>Ruler: Set the ruler tool.</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -184,7 +184,7 @@
       <Id>14</Id>
       <Name>Display</Name>
       <Icon>Display.png</Icon>
-      <DllName>libKSJVisionStepDisplay.so</DllName>
+      <DllName>KSJVisionStepDisplay</DllName>
       <Description>Display: Display the informations of your interest</Description>
       <CategoryId>7</CategoryId>
     </StepType>
@@ -193,7 +193,7 @@
       <Id>15</Id>
       <Name>Serial Port</Name>
       <Icon>SerialPort.png</Icon>
-      <DllName>libKSJVisionStepSerialPort.so</DllName>
+      <DllName>KSJVisionStepSerialPort</DllName>
       <Description>Serial Port: Create a serial connect</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -202,7 +202,7 @@
       <Id>16</Id>
       <Name>Ethernet</Name>
       <Icon>Ethernet.png</Icon>
-      <DllName>libKSJVisionStepEthernet.so</DllName>
+      <DllName>KSJVisionStepEthernet</DllName>
       <Description>Ethernet: Create a ethernet connect</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -211,7 +211,7 @@
       <Id>17</Id>
       <Name>Modbus Write</Name>
       <Icon>ModbusWrite.png</Icon>
-      <DllName>libKSJVisionStepModbusWrite.so</DllName>
+      <DllName>KSJVisionStepModbusWrite</DllName>
       <Description>Modbus Write: Send information to a modbus</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -220,7 +220,7 @@
       <Id>18</Id>
       <Name>Modbus Read</Name>
       <Icon>ModbusRead.png</Icon>
-      <DllName>libKSJVisionStepModbusRead.so</DllName>
+      <DllName>KSJVisionStepModbusRead</DllName>
       <Description>Modbus Read: Read information from a modbus</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -229,7 +229,7 @@
       <Id>19</Id>
       <Name>Send Data</Name>
       <Icon>SendData.png</Icon>
-      <DllName>libKSJVisionStepSendData.so</DllName>
+      <DllName>KSJVisionStepSendData</DllName>
       <Description>Send Data: Send infmation to a connect</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -238,7 +238,7 @@
       <Id>20</Id>
       <Name>RecvData</Name>
       <Icon>ReceiveData.png</Icon>
-      <DllName>libKSJVisionStepRecvData.so</DllName>
+      <DllName>KSJVisionStepRecvData</DllName>
       <Description>Receive Data: Receive infmation from a connect</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -247,7 +247,7 @@
       <Id>21</Id>
       <Name>If</Name>
       <Icon>If.png</Icon>
-      <DllName>libKSJVisionStepIf.so</DllName>
+      <DllName>KSJVisionStepIf</DllName>
       <Description>IF: if-else statement</Description>
       <CategoryId>4</CategoryId>
     </StepType>
@@ -256,7 +256,7 @@
       <Id>22</Id>
       <Name>Blob</Name>
       <Icon>Blob.png</Icon>
-      <DllName>libKSJVisionStepBlob.so</DllName>
+      <DllName>KSJVisionStepBlob</DllName>
       <Description>Blob: Find the blobs in the image</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -265,7 +265,7 @@
       <Id>23</Id>
       <Name>Morphology</Name>
       <Icon>Morphology.png</Icon>
-      <DllName>libKSJVisionStepMorphology.so</DllName>
+      <DllName>KSJVisionStepMorphology</DllName>
       <Description>Morphology: Morphological image processing</Description>
       <CategoryId>1</CategoryId>
     </StepType>
@@ -274,7 +274,7 @@
       <Id>24</Id>
       <Name>Grayscale Match</Name>
       <Icon>GrayscaleMatch.png</Icon>
-      <DllName>libKSJVisionStepNCC.so</DllName>
+      <DllName>KSJVisionStepNCC</DllName>
       <Description>Grayscale Match: Grayscale method for matching image</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -283,7 +283,7 @@
       <Id>25</Id>
       <Name>Calculator</Name>
       <Icon>Calculator.png</Icon>
-      <DllName>libKSJVisionStepCalculator.so</DllName>
+      <DllName>KSJVisionStepCalculator</DllName>
       <Description>Calculator: a calculator</Description>
       <CategoryId>7</CategoryId>
     </StepType>
@@ -292,7 +292,7 @@
       <Id>26</Id>
       <Name>Shape Match</Name>
       <Icon>GeoMatch.png</Icon>
-      <DllName>libKSJVisionStepGeoMatch.so</DllName>
+      <DllName>KSJVisionStepGeoMatch</DllName>
       <Description>Shape Match: Locate a template in the image by its shape</Description>
       <CategoryId>2</CategoryId>
     </StepType>
@@ -301,7 +301,7 @@
       <Id>27</Id>
       <Name>Loop</Name>
       <Icon>Loop.png</Icon>
-      <DllName>libKSJVisionStepFor.so</DllName>
+      <DllName>KSJVisionStepFor</DllName>
       <Description>Loop: Loop statement</Description>
       <CategoryId>4</CategoryId>
     </StepType>
@@ -310,7 +310,7 @@
       <Id>28</Id>
       <Name>Variable Define</Name>
       <Icon>Variable.png</Icon>
-      <DllName>libKSJVisionStepDefine.so</DllName>
+      <DllName>KSJVisionStepDefine</DllName>
       <Description>Variable Define: Define some variables</Description>
       <CategoryId>7</CategoryId>
     </StepType>
@@ -319,17 +319,17 @@
       <Id>29</Id>
       <Name>Save Image</Name>
       <Icon>SaveImage.png</Icon>
-      <DllName>libKSJVisionStepSaveImage.so</DllName>
+      <DllName>KSJVisionStepSaveImage</DllName>
       <Description>Save Image: Save a image to the disk</Description>
       <CategoryId>0</CategoryId>
     </StepType>
 
     <StepType>
       <Id>30</Id>
-      <Name>Global IO</Name>
+      <Name>Output</Name>
       <Icon>GlobalIO.png</Icon>
-      <DllName>libKSJVisionStepSCZOutput.so</DllName>
-      <Description>Global IO: Read/Send signal from/to the global IO</Description>
+      <DllName>KSJVisionStepSCZOutput</DllName>
+      <Description>Output: Send signal to the global IO</Description>
       <CategoryId>6</CategoryId>
     </StepType>
 
@@ -337,7 +337,7 @@
       <Id>31</Id>
       <Name>Delay</Name>
       <Icon>Delay.png</Icon>
-      <DllName>libKSJVisionStepDelay.so</DllName>
+      <DllName>KSJVisionStepDelay</DllName>
       <Description>Delay: Delay for some time</Description>
       <CategoryId>7</CategoryId>
     </StepType>
@@ -346,7 +346,7 @@
       <Id>32</Id>
       <Name>BarCodeRead2</Name>
       <Icon>BarCodeRead.png</Icon>
-      <DllName>libKSJVisionStepZXing.so</DllName>
+      <DllName>KSJVisionStepZXing</DllName>
       <Description>BarCode Read2: Reads a Barcode from the region of interest</Description>
       <CategoryId>5</CategoryId>
     </StepType>
@@ -355,7 +355,7 @@
       <Id>33</Id>
       <Name>Images Operation</Name>
       <Icon>ImagesOperation.png</Icon>
-      <DllName>libKSJVisionStepImagesOperation.so</DllName>
+      <DllName>KSJVisionStepImagesOperation</DllName>
       <Description>Images Operation: Images Operation</Description>
       <CategoryId>1</CategoryId>
     </StepType>
@@ -364,7 +364,7 @@
       <Id>34</Id>
       <Name>Measure Intensity</Name>
       <Icon>MeasureIntensity.png</Icon>
-      <DllName>libKSJVisionStepMeasureIntensity.so</DllName>
+      <DllName>KSJVisionStepMeasureIntensity</DllName>
       <Description>Measure Intensity: Measure Intensity</Description>
       <CategoryId>3</CategoryId>
     </StepType>
@@ -373,7 +373,7 @@
       <Id>35</Id>
       <Name>Blob Camera</Name>
       <Icon>Camera.png</Icon>
-      <DllName>libKSJVisionStepBlobCamera.so</DllName>
+      <DllName>KSJVisionStepBlobCamera</DllName>
       <Description>Blob Camera</Description>
       <CategoryId>0</CategoryId>
     </StepType>
@@ -382,9 +382,36 @@
       <Id>36</Id>
       <Name>Images Contrast</Name>
       <Icon>MeasureIntensity.png</Icon>
-      <DllName>libKSJVisionStepImagesContrast.so</DllName>
+      <DllName>KSJVisionStepImagesContrast</DllName>
       <Description>Images Contrast</Description>
       <CategoryId>1</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>37</Id>
+      <Name>OCR</Name>
+      <Icon>MeasureIntensity.png</Icon>
+      <DllName>KSJVisionStepOCR</DllName>
+      <Description>OCR</Description>
+      <CategoryId>5</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>38</Id>
+      <Name>String</Name>
+      <Icon>Variable.png</Icon>
+      <DllName>KSJVisionStepString</DllName>
+      <Description>String: Format a string</Description>
+      <CategoryId>7</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>39</Id>
+      <Name>Input</Name>
+      <Icon>MeasureIntensity.png</Icon>
+      <DllName>KSJVisionStepSCZInput</DllName>
+      <Description>Input: Read signal from the global IO</Description>
+      <CategoryId>6</CategoryId>
     </StepType>
 
   </Step>
