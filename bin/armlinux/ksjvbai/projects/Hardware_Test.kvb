@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<KsjvbProjectDosument version="1.0">
+    <Infomation>
+        <Description>This is a Ksjvb Project Document</Description>
+        <Company>Beijing Catchbest Ltd., CO.</Company>
+        <Copyright>2017 Catchbest</Copyright>
+    </Infomation>
+    <ProjectInfo>
+        <StepCounter>345</StepCounter>
+        <SourceFilePath>/ksjscz/ksjvbai/projects/Hardware_Test.kvb</SourceFilePath>
+    </ProjectInfo>
+    <Manager>
+        <Steps>
+            <Step StepType="39">
+                <Version>1.0</Version>
+                <Id>286</Id>
+                <Name>SCZInput1</Name>
+                <Enable>1</Enable>
+                <InCheck0>2</InCheck0>
+                <InCheck1>2</InCheck1>
+                <InCheck2>2</InCheck2>
+            </Step>
+            <Step StepType="0">
+                <Version>1.3</Version>
+                <Id>287</Id>
+                <Name>KSJSCZCamera2</Name>
+                <Enable>1</Enable>
+                <m_nDeviceCurSel>0</m_nDeviceCurSel>
+                <m_nGain>128</m_nGain>
+                <m_nExposureLines>500</m_nExposureLines>
+                <m_nTriggerMode>1</m_nTriggerMode>
+                <m_nColStart>0</m_nColStart>
+                <m_nRowStart>0</m_nRowStart>
+                <m_nColSize>1280</m_nColSize>
+                <m_nRowSize>1024</m_nRowSize>
+                <m_bFlip>1</m_bFlip>
+                <m_bMirror>1</m_bMirror>
+                <m_SkipMode>0</m_SkipMode>
+                <FlashEnable>0</FlashEnable>
+                <FlashInvert>0</FlashInvert>
+                <TriggerDelay>0</TriggerDelay>
+                <TriggerFilter>0</TriggerFilter>
+            </Step>
+            <Step StepType="30">
+                <Version>1.0</Version>
+                <Id>289</Id>
+                <Name>SCZOutput1</Name>
+                <Enable>1</Enable>
+                <OutState0>0</OutState0>
+                <OutState1>0</OutState1>
+                <OutState2>0</OutState2>
+                <OutState3>0</OutState3>
+                <OutState4>0</OutState4>
+                <OutState5>0</OutState5>
+                <OutState6>0</OutState6>
+            </Step>
+            <Step StepType="15">
+                <Version>1.0</Version>
+                <Id>290</Id>
+                <Name>SerialPort1</Name>
+                <Enable>1</Enable>
+                <DeviceIndex>0</DeviceIndex>
+                <BaudRate>9600</BaudRate>
+                <DataBitsIndex>8</DataBitsIndex>
+                <StopBitsIndex>0</StopBitsIndex>
+                <ParityIndex>0</ParityIndex>
+            </Step>
+            <Step StepType="16">
+                <Version>1.0</Version>
+                <Id>291</Id>
+                <Name>Ethernet1</Name>
+                <Enable>1</Enable>
+                <IP>192.168.1.84</IP>
+                <Port>2099</Port>
+                <NetType>0</NetType>
+                <LinkType>1</LinkType>
+                <ClientIndex>0</ClientIndex>
+            </Step>
+            <Step StepType="19">
+                <Version>1.0</Version>
+                <Id>292</Id>
+                <Name>Send Data1</Name>
+                <Enable>1</Enable>
+                <LinkType>17</LinkType>
+                <InputStepId>291</InputStepId>
+                <strIP></strIP>
+                <Port>0</Port>
+                <IsHexadecimal>0</IsHexadecimal>
+                <strDataFormat>Ethernet:Send is OK</strDataFormat>
+                <Precision>5</Precision>
+            </Step>
+            <Step StepType="19">
+                <Version>1.0</Version>
+                <Id>294</Id>
+                <Name>Send Data2</Name>
+                <Enable>1</Enable>
+                <LinkType>19</LinkType>
+                <InputStepId>290</InputStepId>
+                <strIP></strIP>
+                <Port>0</Port>
+                <IsHexadecimal>0</IsHexadecimal>
+                <strDataFormat>Com: Send is OK</strDataFormat>
+                <Precision>5</Precision>
+            </Step>
+            <Step StepType="14">
+                <Version>1.4</Version>
+                <Id>288</Id>
+                <Name>Display1</Name>
+                <Enable>1</Enable>
+                <Count>1</Count>
+                <display_0.x0>0</display_0.x0>
+                <display_0.x1>0</display_0.x1>
+                <display_0.y0>0</display_0.y0>
+                <display_0.y1>1079410688</display_0.y1>
+                <display_0.format>Input:{SCZInput1.Input0[0]}  {SCZInput1.Input1[0]}  {SCZInput1.Input2[0]}</display_0.format>
+                <display_0.precision>0</display_0.precision>
+                <m_nFontColor>65280</m_nFontColor>
+                <m_lFontHeight>25</m_lFontHeight>
+            </Step>
+        </Steps>
+    </Manager>
+</KsjvbProjectDosument>
