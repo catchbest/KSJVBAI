@@ -414,6 +414,15 @@
       <CategoryId>6</CategoryId>
     </StepType>
 
+    <StepType>
+      <Id>40</Id>
+      <Name>StringMatch</Name>
+      <Icon>Variable.png</Icon>
+      <DllName>KSJVisionStepStringMatch</DllName>
+      <Description>Match two string variables</Description>
+      <CategoryId>7</CategoryId>
+    </StepType>
+
   </Step>
 
 </KSJVisionSteps>

@@ -414,6 +414,33 @@
       <CategoryId>6</CategoryId>
     </StepType>
 
+    <StepType>
+      <Id>40</Id>
+      <Name>StringMatch</Name>
+      <Icon>Variable.png</Icon>
+      <DllName>KSJVisionStepStringMatch</DllName>
+      <Description>Match two string variables</Description>
+      <CategoryId>7</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>99</Id>
+      <Name>PointCloud</Name>
+      <Icon>MeasureIntensity.png</Icon>
+      <DllName>KSJVisionStepPointCloud</DllName>
+      <Description>PointCloud</Description>
+      <CategoryId>6</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>1000</Id>
+      <Name>IOBoard</Name>
+      <Icon>GlobalIO.png</Icon>
+      <DllName>KSJVisionStepRecvFromIOBoard</DllName>
+      <Description>IOBoard</Description>
+      <CategoryId>6</CategoryId>
+    </StepType>
+
   </Step>
 
 </KSJVisionSteps>
