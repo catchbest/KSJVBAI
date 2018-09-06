@@ -424,6 +424,16 @@
     </StepType>
 
     <StepType>
+      <Id>41</Id>
+      <Name>Homography</Name>
+      <Icon>Ruler.png</Icon>
+      <DllName>KSJVisionStepHomography</DllName>
+      <Description>Homography: Plane calibration</Description>
+      <CategoryId>2</CategoryId>
+    </StepType>
+
+
+    <StepType>
       <Id>99</Id>
       <Name>PointCloud</Name>
       <Icon>MeasureIntensity.png</Icon>
