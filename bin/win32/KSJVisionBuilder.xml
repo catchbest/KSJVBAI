@@ -432,6 +432,15 @@
       <CategoryId>2</CategoryId>
     </StepType>
 
+    <StepType>
+      <Id>42</Id>
+      <Name>Pt2Pt</Name>
+      <Icon>Ruler.png</Icon>
+      <DllName>KSJVisionStepPt2Pt</DllName>
+      <Description>Convert coordinate: Convert pixel coordinates to world coordinates</Description>
+      <CategoryId>3</CategoryId>
+    </StepType>
+
 
     <StepType>
       <Id>99</Id>
