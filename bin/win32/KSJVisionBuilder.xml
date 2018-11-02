@@ -441,6 +441,15 @@
       <CategoryId>3</CategoryId>
     </StepType>
 
+    <StepType>
+      <Id>43</Id>
+      <Name>ShowNow</Name>
+      <Icon>Display.png</Icon>
+      <DllName>KSJVisionStepShowNow</DllName>
+      <Description>Show Now: Display the image and result immediately</Description>
+      <CategoryId>7</CategoryId>
+    </StepType>
+
 
     <StepType>
       <Id>99</Id>
