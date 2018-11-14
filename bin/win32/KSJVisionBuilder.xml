@@ -450,6 +450,14 @@
       <CategoryId>7</CategoryId>
     </StepType>
 
+    <StepType>
+      <Id>44</Id>
+      <Name>Caliper</Name>
+      <Icon>Caliper.png</Icon>
+      <DllName>KSJVisionStepCaliper</DllName>
+      <Description>Mesure the length, width or height with a caliper.</Description>
+      <CategoryId>2</CategoryId>
+    </StepType>
 
     <StepType>
       <Id>99</Id>
