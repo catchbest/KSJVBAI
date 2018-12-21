@@ -211,7 +211,7 @@
       <Id>17</Id>
       <Name>Modbus Write</Name>
       <Icon>ModbusWrite.png</Icon>
-      <DllName>KSJVisionStepModbusWrite</DllName>
+      <DllName>KSJVisionStepModbusWrite_</DllName>
       <Description>Modbus Write: Send information to a modbus</Description>
       <CategoryId>6</CategoryId>
     </StepType>
@@ -220,7 +220,7 @@
       <Id>18</Id>
       <Name>Modbus Read</Name>
       <Icon>ModbusRead.png</Icon>
-      <DllName>KSJVisionStepModbusRead</DllName>
+      <DllName>KSJVisionStepModbusRead_</DllName>
       <Description>Modbus Read: Read information from a modbus</Description>
       <CategoryId>6</CategoryId>
     </StepType>
