@@ -460,6 +460,15 @@
     </StepType>
 
     <StepType>
+      <Id>55</Id>
+      <Name>LWH</Name>
+      <Icon>Caliper.png</Icon>
+      <DllName>KSJVisionStepLWH3D</DllName>
+      <Description>Mesure the length, width or height from 3D Camera.</Description>
+      <CategoryId>2</CategoryId>
+    </StepType>
+
+    <StepType>
       <Id>99</Id>
       <Name>PointCloud</Name>
       <Icon>MeasureIntensity.png</Icon>
