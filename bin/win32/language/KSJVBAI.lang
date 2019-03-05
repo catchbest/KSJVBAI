@@ -1,0 +1,121 @@
+﻿ID	English	简体中文
+Project: Temporary Project	Project: Temporary Project	工程文件: 临时工程
+Project: 	Project: 	工程文件: 
+New	New	新建
+Open	Open	打开
+Save	Save	保存
+Save as	Save as	另存为
+Import project	Import project	导入工程
+Export project	Export project	导出工程
+Default running this project	Default running this project	默认运行当前工程
+Zoom	Zoom	缩放
+Zoom to Fit Image	Zoom to Fit Image	适应图片
+Run to Next	Run to Next	下一步
+Run Once	Run Once	运行一次
+Run Loop	Run Loop	循环运行
+Run to failed	Run to failed	运行至失败
+Stop	Stop	停止
+Edit Step	Edit Step	编辑工具
+Cut	Cut	剪切
+Copy	Copy	复制
+Paste	Paste	粘贴
+Delete	Delete	删除
+Enable	Enable	启用
+Hide Result	Hide Result	隐藏结果
+Software setting	Software setting	软件设置
+System setting	System setting	系统设置
+Show All	Show All	显示全部
+StepList	StepList	显示工具列表
+Hide All	Hide All	隐藏全部
+About	About	关于
+File	File	文件
+Edit	Edit	编辑
+View	View	查看
+Operate	Operate	操作
+Setting	Setting	设置
+Window	Window	窗口
+Language	Language	语言
+Help	Help	帮助
+Error	Error	错误
+Can not find any udisk! Please import U disk to the camare! 	Can not find any udisk! Please import U disk to the camare! 	没有发现U盘!请插入一个U盘!
+Finished	Finished	完成
+Yours projects have been imported! 	Yours projects have been imported! 	工程文件已经全部导入!
+Can not find /ksjvbai/projects folder in the Udisk! 	Can not find /ksjvbai/projects folder in the Udisk! 	没有在U盘根目录中找到/ksjvbai/projects
+Yours projects have been exported to the /ksjvbai/projects folder in Udisk! 	Yours projects have been exported to the /ksjvbai/projects folder in Udisk! 	工程文件已经全部导出至U盘根目录下的/ksjvbai/projects中
+Disable	Disable	禁用
+Display Result	Display Result	显示运行结果
+Total:	Total:	总计:
+Warnning	Warnning	警告
+The current project has been modified. Do you want to save it at first? 	The current project has been modified. Do you want to save it at first? 	当前工程已经被修改。需要先进行保存吗?
+Open ksjvb file	Open ksjvb file	打开ksjvb文件
+File open failed! 	File open failed! 	打开失败!
+File save failed! 	File save failed! 	保存失败!
+File save as	File save as	另存为
+Not Save	Not Save	不保存
+Acquire Images	Acquire Images	获取图像
+Enhance Images	Enhance Images	图像处理
+Locate Features	Locate Features	定位工具
+Measure Features	Measure Features	测量工具
+Flow Control	Flow Control	流程控制
+Identify Parts	Identify Parts	识别工具
+Communicate	Communicate	通讯工具
+Additional Tools	Additional Tools	其它工具
+Camera	Camera	相机
+Simulate Acquisition	Simulate Acquisition	图像相机
+Threshold Image	Threshold Image	二值化
+Select Image	Select Image	选择图像
+Find Circular Edge	Find Circular Edge	找圆
+Find Edges	Find Edges	找边缘点
+Find Straight Edge	Find Straight Edge	找直线
+Geometry	Geometry	图形关系
+Create ROI	Create ROI	创建ROI
+Coordinate	Coordinate	定位坐标
+Filter Image	Filter Image	图像滤波
+BarCode Read	BarCode Read	码读取
+Segment ColorImage	Segment ColorImage	色彩分割
+Ruler	Ruler	标尺
+Display	Display	显示字符
+Serial Port	Serial Port	串口
+Ethernet	Ethernet	网口
+Send Data	Send Data	发送数据
+Receive Data	Receive Data	接收数据
+IF	IF	条件跳转
+Blob	Blob	斑点分析
+Morphology	Morphology	形态学
+Grayscale Match	Grayscale Match	灰度模版匹配
+Calculator	Calculator	计算器
+Shape Match	Shape Match	形状模版匹配
+Loop	Loop	循环
+Variable Define	Variable Define	定义变量
+Save Image	Save Image	保存图像
+General-purpose Output	General-purpose Output	通用输出
+Delay	Delay	延时
+BarCode Read2	BarCode Read2	码读取2(DM码)
+Images Operation	Images Operation	图像运算
+Measure Intensity	Measure Intensity	像素统计
+Blob Camera	Blob Camera	Blob相机
+Images Contrast	Images Contrast	图像对比
+OCR	OCR	字符识别
+String	String	定义字符串
+General-purpose Input	General-purpose Input	通用输入
+Match two string variables	Match two string variables	字符串对比
+Plane Calibration	Plane Calibration	平面标定
+Convert Coordinate	Convert Coordinate	坐标转换
+Show Now	Show Now	立即显示
+Caliper	Caliper	卡尺
+Step	Step	工具
+Status	Status	状态
+Default project	Default project	默认工程
+Default load project	Default load project	默认加载工程
+Current Project	Current Project	当前工程
+Auto running default project	Auto running default project	启动自动运行默认工程
+Software Log	Software Log	软件日志
+Restart	Restart	重启
+Clear All	Clear All	清除所有
+Export	Export	导出
+Check temporary editting project	Check temporary editting project	检查临时工程文件
+OK	OK	确认
+Cancel	Cancel	取消
+Open log	Open log	打开日志
+All the logs have been deleted!	All the logs have been deleted!	已删除所有的日志!
+The logs have been exported to the /ksjvbai/log folder in Udisk! 	The logs have been exported to the /ksjvbai/log folder in Udisk! 	日志文件已经导出到U盘根目录下的/ksjvbai/log中
