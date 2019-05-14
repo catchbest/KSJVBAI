@@ -460,6 +460,24 @@
     </StepType>
 
     <StepType>
+      <Id>45</Id>
+      <Name>Excel</Name>
+      <Icon>Excel.png</Icon>
+      <DllName>KSJVisionStepCreateExcel</DllName>
+      <Description>Excel</Description>
+      <CategoryId>6</CategoryId>
+    </StepType>
+
+    <StepType>
+      <Id>46</Id>
+      <Name>Write Excel</Name>
+      <Icon>Excel.png</Icon>
+      <DllName>KSJVisionStepWriteExcel</DllName>
+      <Description>Write a line in Excel</Description>
+      <CategoryId>6</CategoryId>
+    </StepType>
+
+    <StepType>
       <Id>55</Id>
       <Name>LWH</Name>
       <Icon>Caliper.png</Icon>

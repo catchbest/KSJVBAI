@@ -119,3 +119,10 @@ Cancel	Cancel	取消
 Open log	Open log	打开日志
 All the logs have been deleted!	All the logs have been deleted!	已删除所有的日志!
 The logs have been exported to the /ksjvbai/log folder in Udisk! 	The logs have been exported to the /ksjvbai/log folder in Udisk! 	日志文件已经导出到U盘根目录下的/ksjvbai/log中
+Step Name cannot be blank! 	Step Name cannot be blank! 	工具名称不能为空!
+"Step Name cannot contain one of \""{}[]()~!#%^&+-*/=,.:?\"" "	"Step Name cannot contain one of \""{}[]()~!#%^&+-*/=,.:?\"" "	"工具名称不能包含特殊字符""{}[]()~!#%^&+-*/=,.:?\"""
+The name of step has been used! 	The name of step has been used! 	工具名称重复!
+Parameters of step is error! 	Parameters of step is error! 	工具参数错误!
+Reset	Reset	复位
+Excel	Excel	创建Excel
+Write a line in Excel	Write a line in Excel	写入Excel
