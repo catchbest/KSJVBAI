@@ -126,3 +126,5 @@ Parameters of step is error! 	Parameters of step is error! 	工具参数错误!
 Reset	Reset	复位
 Excel	Excel	创建Excel
 Write a line in Excel	Write a line in Excel	写入Excel
+Convert a line	Convert a line	直线转换
+Create a line from two points	Create a line from two points	构造直线

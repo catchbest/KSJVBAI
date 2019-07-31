@@ -478,30 +478,21 @@
     </StepType>
 
     <StepType>
-      <Id>55</Id>
-      <Name>LWH</Name>
-      <Icon>Caliper.png</Icon>
-      <DllName>KSJVisionStepLWH3D</DllName>
-      <Description>LWH</Description>
-      <CategoryId>2</CategoryId>
+      <Id>47</Id>
+      <Name>Line2Line</Name>
+      <Icon>Ruler.png</Icon>
+      <DllName>KSJVisionStepLine2Line</DllName>
+      <Description>Convert a line</Description>
+      <CategoryId>3</CategoryId>
     </StepType>
 
     <StepType>
-      <Id>99</Id>
-      <Name>PointCloud</Name>
-      <Icon>MeasureIntensity.png</Icon>
-      <DllName>KSJVisionStepPointCloud</DllName>
-      <Description>PointCloud</Description>
-      <CategoryId>6</CategoryId>
-    </StepType>
-
-    <StepType>
-      <Id>1000</Id>
-      <Name>IOBoard</Name>
-      <Icon>GlobalIO.png</Icon>
-      <DllName>KSJVisionStepRecvFromIOBoard</DllName>
-      <Description>IOBoard</Description>
-      <CategoryId>6</CategoryId>
+      <Id>48</Id>
+      <Name>CreateLine</Name>
+      <Icon>Ruler.png</Icon>
+      <DllName>KSJVisionStepCreateLine</DllName>
+      <Description>Create a line from two points</Description>
+      <CategoryId>3</CategoryId>
     </StepType>
 
   </Step>
