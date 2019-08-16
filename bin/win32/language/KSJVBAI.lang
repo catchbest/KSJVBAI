@@ -90,7 +90,7 @@ Variable Define	Variable Define	定义变量
 Save Image	Save Image	保存图像
 General-purpose Output	General-purpose Output	通用输出
 Delay	Delay	延时
-BarCode Read2	BarCode Read2	码读取2(DM码)
+BarCode Read2	BarCode Read2(DM)	码读取2(DM码)
 Images Operation	Images Operation	图像运算
 Measure Intensity	Measure Intensity	像素统计
 Blob Camera	Blob Camera	Blob相机
